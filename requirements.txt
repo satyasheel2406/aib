@@ -4,8 +4,11 @@ pydantic
 langchain-core
 langchain-google-genai
 python-multipart
-python-jose  # Required for JWT authentication
-langchain-community # For document loaders
-pypdf           # Required for PyPDFLoader
-unstructured    # Required for UnstructuredFileLoader
-lxml            # Common dependency for web/document parsing
+python-jose
+langchain-community
+pypdf
+unstructured
+lxml
+
+# CRITICAL FIX for SentenceTransformerEmbeddings in main.py
+sentence-transformers
