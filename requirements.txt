@@ -3,4 +3,5 @@ uvicorn[standard]
 pydantic
 langchain-core
 langchain-google-genai
-python-multipart  # Required for file uploads in FastAPI
+python-multipart
+python-jose  # <-- CRITICAL FIX: Added JWT dependency
